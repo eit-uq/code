@@ -1,3 +1,4 @@
+% The main program of the dimensional reduction method
 clc;
 clear all;
 close all;
@@ -7,9 +8,9 @@ tic;
 % d=10;
 %  u=ones(1,64);
 %  s=ones(1,64)*0.5;
-ns = 10;                      %% Number of MCS samples MCSÑù±¾Êı 
-nv = length(u);                   %% Number of input random variablesÊäÈëËæ»ú±äÁ¿µÄÊıÁ¿ 
-xs = zeros(nv,ns);                %% Initialization of MCS sample vector MCSÑù±¾ÏòÁ¿µÄ³õÊ¼»¯
+ns = 10;                      %% Number of MCS samples MCSæ ·æœ¬æ•° 
+nv = length(u);                   %% Number of input random variablesè¾“å…¥éšæœºå˜é‡çš„æ•°é‡ 
+xs = zeros(nv,ns);                %% Initialization of MCS sample vector MCSæ ·æœ¬å‘é‡çš„åˆå§‹åŒ–
 for k = 1:nv 
     xs(k,:) = normrnd(u(k),s(k),1,ns);
 end 
