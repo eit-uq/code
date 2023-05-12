@@ -1,4 +1,6 @@
- function [dianji,xuhao_dianji]=qdianji(nn,node,rr,npl,cengshu);
+ %  mainforw.m：The main program for constructing the head model by finite element method;
+
+function [dianji,xuhao_dianji]=qdianji(nn,node,rr,npl,cengshu);
 %%coordinetes of the electrodes/dianji(16 electrodes).
 a1=2*pi/nn;for i=1:nn;a=a1*(i-1);dianji(i,:)=[rr*cos(a),rr*sin(a)];end;clear a1;clear a;
 %%xuhao of the electrodes in coarse mesh(16 electrodes).
