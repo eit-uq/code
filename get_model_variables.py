@@ -1,3 +1,4 @@
+# prepare for the invocation of this model by the dimension reduction methond
 import os
 from tensorflow.python import pywrap_tensorflow
 from scipy.io import *
