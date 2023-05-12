@@ -1,3 +1,4 @@
+# The DNN network is reloaded to test the generalization ability of the alternative model
 import tensorflow as tf
 import numpy as np
 # from scipy.io import *
