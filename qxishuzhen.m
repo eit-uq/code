@@ -1,4 +1,4 @@
-% A subroutine for the construction of the head model, the experimental simulation of the EIT; electrode setup procedure;
+% A subroutine for the construction of the head model, the experimental simulation of the EIT electrode setup procedure;
 function S=qxishuzhen(node,element,rou)
 ss=size(node,1);
 S=sparse(ss,ss,0);
