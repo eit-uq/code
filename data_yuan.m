@@ -1,4 +1,4 @@
-# Construct the header model of the multidimensional parameters of the EIT
+%Construct the header model of the multidimensional parameters of the EIT
 %this function is using to calculate the solution space data.
 %input:radiu of the space(r),number of layers of the space(cengshu).
 %output:coordinates of the nodes(r), nodes' number of per layer(np),
