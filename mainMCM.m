@@ -1,3 +1,6 @@
+#It is the main program of Monte Carlo method and a classical algorithm in the field of uncertainty quantification, 
+#and its results are used as experimental benchmarks.
+#A sample set of alternative models was generated, where conductivity was used as input and voltage as output
 clc;
 clear all;
 close all;
@@ -16,7 +19,7 @@ vv(:,i)=dianyajisuan(rou);
 end
 %vv26=vv(26,:)';
 % for i=1:10
-% r=normrnd(0,1,10,total_element);%标准正态分布随机数
+% r=normrnd(0,1,10,total_element);%卤锚脳录脮媒脤卢路脰虏录脣忙禄煤脢媒
 % rou=r(i,:);
 % vv(:,i)=dianyajisuan(rou);
 % end
