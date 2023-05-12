@@ -1,3 +1,4 @@
+% The main program for constructing the head model by finite element method
 clc;
 clear all;
 cleose all;
