@@ -1,3 +1,4 @@
+# Sampling function of dimensionality reduction method
 function [output,input,gg] = UDR_sampling(u,s) 
 u_loc = [-3.0,-1.5,0,1.5,3.0]; %% Sample locations
 nv = length(u);                %% Dimension of the problem 
